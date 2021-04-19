@@ -1,12 +1,14 @@
-<h1 align="center">
-  <br>
-  <img src="https://storage.googleapis.com/golden-wind/github/gatsby-themes-logo.svg" alt="Rocketseat and Gatsby" width="260">
-  <br>
-  Rocketseat Gatsby Themes
-  <br>
-</h1>
+<p align="center">
+  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/theme-docs.svg" alt="A illustration of file that is the @rocketseat/gatsby-theme-docs logo" width="100">
+</p>
 
-<h4 align="center">Gatsby themes that we use to build websites at <a href="https://rocketseat.com.br?utm_source=github-gatsby-themes" target="_blank">Rocketseat</a> ⚡️🔥</h4>
+<h2 align="center">
+  @rocketseat/gatsby-theme-docs
+</h2>
+
+<p align="center">
+  Out of the box Gatsby Theme for creating documentation websites easily and quickly.
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PRs-welcome-%238257E6.svg" alt="PRs welcome!" />
@@ -19,36 +21,62 @@
 </p>
 
 <p align="center">
-  <a href="#themes">Themes</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#need-help">Need help?</a> •
-  <a href="#license">License</a>
+  <a href="#-features">Features</a> •
+  <a href="#-getting-started">Getting started</a> •
+  <a href="#-docs">Docs</a> •
+  <a href="#-contributing">Contributing</a> •
+  <a href="#-license">License</a>
 </p>
 
-## Themes
+## 🚀 Features
 
-🚀 [`gatsby-theme-docs-core`](./@rocketseat/gatsby-theme-docs-core): The core theme for docs websites that includes all the data structures you need.
+- 📝 MDX for docs;
+- 🛣 Yaml-based sidebar navigation;
+- 📱 Responsive and mobile friendly;
+- 🖥 Code highlighting with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) support;
+- 🥇 SEO (Sitemap, schema.org data, Open Graph and Twitter tags).
+- 📈 Google Analytics support;
+- 📄 Custom docs schema;
+- 🖱 Table of Contents;
+- ⚡️ Offline Support & WebApp Manifest;
+- and much more 🔥
 
-🚀 [`gatsby-theme-docs`](./@rocketseat/gatsby-theme-docs): Out of the box Gatsby Theme for creating documentation websites easily and quickly.
+## ⚡️ Getting started
 
-## Contributing
+1. Create the website.
 
-Thanks for being interested in contributing! We’re so glad you want to help! Please take a little bit of your time and look at our [contributing guidelines](.github/CONTRIBUTING.md) and our
-[code of conduct](.github/CODE_OF_CONDUCT.md)! All type of contributions are welcome, such as bug fixes, issues or feature requests. Also, don't forget to check the roadmap.
+   ```sh
+   npx gatsby new rocket-docs https://github.com/rocketseat/gatsby-starter-rocket-docs
+   ```
 
-## Need help?
+2. Start developing.
 
-If you need help, feel free to open an issue with a description of the problem
-you're facing or, if you prefer, you can chat with us on our
-[forum](https://github.com/Rocketseat/gatsby-themes/discussions).
+   ```sh
+   cd rocket-docs
+   gatsby develop
+   ```
 
-## Thanks
+3. Are you ready for launch? 🚀
 
-The following Open Source projects heavily inspire this project! Thanks, Apollo and LekoArts!
+   Your site is now running at `http://localhost:8000`
 
-- [LekoArts Gatsby themes](https://github.com/LekoArts/gatsby-themes)
-- [Apollo Gatsby themes](https://github.com/apollographql/gatsby-theme-apollo)
+## 📄 Docs
 
-## License
+Looking for docs? Check our live demo and documentation [website](https://rocketdocs.netlify.app).
 
-MIT © [Rocketseat](https://github.com/Rocketseat)
+## ✨ Contributing
+
+Thanks for being interested in contributing! We’re so glad you want to help! Please take a little bit of your time and look at our [contributing guidelines](https://github.com/Rocketseat/gatsby-themes/blob/main/.github/CONTRIBUTING.md) and our
+[code of conduct](https://github.com/Rocketseat/gatsby-themes/blob/main/.github/CODE_OF_CONDUCT.md)! All type of contributions are welcome, such as bug fixes, issues or feature requests.
+
+## 🗺 Changelog
+
+All notable changes to this project will be documented on the [CHANGELOG](https://github.com/Rocketseat/gatsby-themes/blob/main/%40rocketseat/gatsby-theme-docs/CHANGELOG.md) file.
+
+## 📝 License
+
+Licensed under the [MIT License](https://github.com/Rocketseat/gatsby-themes/blob/main/%40rocketseat/gatsby-theme-docs/LICENSE).
+
+---
+
+Made with 💜 by Rocketseat :wave: [check our community!](https://discordapp.com/invite/gCRAFhc)
