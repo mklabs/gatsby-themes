@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql, Link } from 'gatsby';
-import { useSidebar } from '@rocketseat/gatsby-theme-docs-core';
+import { useSidebar } from '@mklabs/gatsby-theme-docs-core';
 
 import {
   Container,
