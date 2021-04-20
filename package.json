@@ -1,5 +1,5 @@
 {
-  "name": "@rocketseat/gatsby-theme-docs",
+  "name": "@mklabs/gatsby-theme-docs",
   "version": "2.3.1",
   "main": "index.js",
   "description": "Out of the box Gatsby Theme for creating documentation websites easily and quickly.",
@@ -19,20 +19,20 @@
     "docs",
     "mdx"
   ],
-  "homepage": "https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gatsby-theme-docs#readme",
+  "homepage": "https://github.com/mklabs/gatsby-themes/tree/main/@mklabs/gatsby-theme-docs#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rocketseat/gatsby-themes.git",
-    "directory": "@rocketseat/gatsby-theme-docs"
+    "url": "https://github.com/mklabs/gatsby-themes.git",
+    "directory": "@mklabs/gatsby-theme-docs"
   },
   "bugs": {
-    "url": "https://github.com/Rocketseat/gatsby-themes/issues"
+    "url": "https://github.com/mklabs/gatsby-themes/issues"
   },
   "dependencies": {
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.0.0",
     "@mdx-js/react": "^1.6.18",
-    "@rocketseat/gatsby-theme-docs-core": "^2.3.1",
+    "@mklabs/gatsby-theme-docs-core": "^2.3.1",
     "gatsby-plugin-catch-links": "^3.0.0",
     "gatsby-plugin-emotion": "^6.0.0",
     "gatsby-plugin-mdx": "^2.0.0",

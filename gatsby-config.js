@@ -1,4 +1,4 @@
-const withDefault = require('@rocketseat/gatsby-theme-docs-core/util/with-default');
+const withDefault = require('@mklabs/gatsby-theme-docs-core/util/with-default');
 
 module.exports = (options) => {
   const themeOtions = withDefault(options);
@@ -18,7 +18,7 @@ module.exports = (options) => {
     },
     plugins: [
       {
-        resolve: `@rocketseat/gatsby-theme-docs-core`,
+        resolve: `@mklabs/gatsby-theme-docs-core`,
         options: themeOtions,
       },
       `gatsby-plugin-catch-links`,
