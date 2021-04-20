@@ -1,9 +1,9 @@
 {
-  "name": "@rocketseat/gatsby-theme-docs-core",
+  "name": "@mklabs/gatsby-theme-docs-core",
   "version": "2.3.1",
   "main": "index.js",
-  "description": "Core theme for @rocketseat/gatsby-theme-docs with no additional theming or style opinions. Includes all of the data structures you need to get up and build a documentation website.",
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "description": "Fork of Core theme for @rocketseat/gatsby-theme-docs with no additional theming or style opinions. Includes all of the data structures you need to get up and build a documentation website.",
+  "author": "Mickael Daniel (@mklabs)",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -19,14 +19,14 @@
     "docs",
     "mdx"
   ],
-  "homepage": "https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gatsby-theme-docs-core#readme",
+  "homepage": "https://github.com/mklabs/gatsby-themes/tree/main/@mklabs/gatsby-theme-docs-core#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rocketseat/gatsby-themes.git",
-    "directory": "@rocketseat/gatsby-theme-docs-core"
+    "url": "https://github.com/mklabs/gatsby-themes.git",
+    "directory": "@mklabs/gatsby-theme-docs-core"
   },
   "bugs": {
-    "url": "https://github.com/Rocketseat/gatsby-themes/issues"
+    "url": "https://github.com/mklabs/gatsby-themes/issues"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.18",
